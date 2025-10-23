@@ -100,6 +100,7 @@ class Cliente {
      * @returns Lista com clientes cadastrados
      * @returns valor nulo em caso de erro na consulta
      */
+    
     static async listarClientes(): Promise<Array<Cliente> | null> {
         try {
             // Cria uma lista vazia que irá armazenar os objetos do tipo Cliente
